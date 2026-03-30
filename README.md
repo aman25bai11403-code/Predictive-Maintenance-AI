@@ -8,7 +8,11 @@ This project addresses the problem of unexpected machine failure in manufacturin
 
 ## 📊 Dataset
 
-I used the **AI4I 2020 Predictive Maintenance Dataset**, which contains 10,000 instances of industrial sensor readings.
+The model was trained and validated using the **AI4I 2020 Predictive Maintenance Dataset**. This dataset is a high-fidelity synthetic representation of real-world industrial sensor telemetry, featuring 10,000 operational data points.
+
+  * **Official Source & Verification:** [UCI Machine Learning Repository - AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset)
+  * **Data Characteristics:** The dataset captures the complex relationship between environmental stressors (Temperature) and mechanical strain (Torque/Speed).
+  * **Feature Focus:** Analysis was conducted on five critical parameters: Air Temperature, Process Temperature, Rotational Speed, Torque, and Tool Wear.
 
 ## 🚀 How to Run
 
